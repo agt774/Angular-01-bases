@@ -21,9 +21,7 @@ export class PersonajesService {
   })
 
   addPersonaje (newPersonaje: Personaje) {
-
     this.personajes.update( list => [ ... list, newPersonaje]);
-
   }
 
 }
